@@ -1,11 +1,9 @@
 // WAP to create a class student with attribute like student id ,studentname, age and gread.
 // it also provide a mathod to set and get their attributes along with a method to display the student details
 
-
+/* 
 import java.util.Scanner;
-
 public class Student {
-
     int studentId;
     String studentName;
     int age;
@@ -71,4 +69,80 @@ public class Student {
         sc.close();
     }
 }
+    */
 
+// WAP to create a class A and this class will contain one method display without parameter and 
+// without return value but this method will display one msg BCA 2A Student. create another class 
+// B and this class will contain main method . from main method of class B call the display method of class A.
+/* 
+class A{
+    void display(){
+   System.out.println(" BCA 2A Student");
+}}
+class B{
+    public static void main(String[] args) {
+        A Message = new A();
+        Message.display();
+    }
+}
+
+
+// WAP with defaut constructor
+class Student {
+    int id;
+    String name;
+
+    // Default Constructor
+    Student() {
+        id = 101;
+        name = "Rahul";
+    }
+
+    void display() {
+        System.out.println("Student ID: " + id);
+        System.out.println("Student Name: " + name);
+    }
+
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.display();
+    }
+}*/
+
+
+// WAP to create a class X and this class will contain one static method print without 
+// parameter and without return value but print a msg static method. create another
+//  class  and this class will contain method. from mrthod of claas Y call print method of class X
+
+
+/*
+class X {
+ 
+    static void print() {
+        System.out.println("Hello Java !");
+    }
+}
+class Y {
+    void method() {
+        X.print();  
+    }
+    public static void main(String[] args) {
+        Y obj = new Y();
+        obj.method();
+    }
+}*/
+
+
+//WAP to create a class M and this class ill contain one variable X with value 12.6 .
+// reate another class and this class will contaim main method. from main method of class
+//N print variable X of class M without crearting the object of class M.
+
+class M {
+    static double x = 12.6;
+}
+
+class N {
+    public static void main(String[] args) {
+        System.out.println("Value of X: " + M.x);
+    }
+}
