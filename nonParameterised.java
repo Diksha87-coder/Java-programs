@@ -2,8 +2,8 @@
 // make this program with the help of non parameterised constructor and parameterised constructor.
 // this class also contain one display method without parameter and without return value and display 
 // method will print the all attribute(variables)
-
-/*import java.util.Scanner;
+/* 
+import java.util.Scanner;
 
 class Book {
     String title;

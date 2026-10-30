@@ -99,7 +99,7 @@ class Addition
 // WAP to find out the addition of two number with the help of function and here
 //  we will create a function with parameter and with return value in java
 
-/* 
+ 
 import java.util.Scanner;
 class Addition
 {
@@ -126,4 +126,4 @@ class Addition
         sc.close();
     }
 }
-*/
+

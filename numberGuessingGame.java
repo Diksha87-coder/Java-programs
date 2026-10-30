@@ -12,7 +12,7 @@ class NumberGuessingGame {
         int guess;
         int attempts = 0;
 
-        System.out.println("===== NUMBER GUESSING GAME =====");
+        System.out.println(" NUMBER GUESSING GAME");
         System.out.println("Guess a number between 1 and 100!");
 
         do {

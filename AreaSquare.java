@@ -1,8 +1,9 @@
 // WAP create a Rectangle class in Java, define methods to read the 
 // length and width, calculate the area of the rectangle, and display 
-// its length, width, and area.import java.util.Scanner;
+// its length, width, and area.
 /* 
-public class AreaRectangle {
+import java.util.Scanner;
+ class AreaRectangle {
 
     int length, width, area;
 
@@ -34,8 +35,8 @@ public class AreaRectangle {
         obj.display();
       
     }
-}
-    */
+}*/
+
 
 // WAP to create a Square class in Java, define methods to read the side 
 // of the square, calculate its area, and display the side and area.
@@ -67,3 +68,4 @@ public class AreaSquare {
         obj.display();
     }
 }
+
